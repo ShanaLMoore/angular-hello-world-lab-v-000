@@ -1,0 +1,193 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'karma-cli' ]
+2 info using npm@2.14.12
+3 info using node@v4.2.6
+4 verbose install initial load of /usr/local/lib/package.json
+5 verbose readDependencies loading dependencies from /usr/local/lib/package.json
+6 silly cache add args [ 'karma-cli', null ]
+7 verbose cache add spec karma-cli
+8 silly cache add parsed spec Result {
+8 silly cache add   raw: 'karma-cli',
+8 silly cache add   scope: null,
+8 silly cache add   name: 'karma-cli',
+8 silly cache add   rawSpec: '',
+8 silly cache add   spec: 'latest',
+8 silly cache add   type: 'tag' }
+9 silly addNamed karma-cli@latest
+10 verbose addNamed "latest" is being treated as a dist-tag for karma-cli
+11 info addNameTag [ 'karma-cli', 'latest' ]
+12 silly mapToRegistry name karma-cli
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry uri https://registry.npmjs.org/karma-cli
+16 verbose addNameTag registry:https://registry.npmjs.org/karma-cli not in flight; fetching
+17 verbose request uri https://registry.npmjs.org/karma-cli
+18 verbose request no auth needed
+19 info attempt registry request try #1 at 7:07:02 PM
+20 verbose request id f5687048ea828b26
+21 http request GET https://registry.npmjs.org/karma-cli
+22 http 200 https://registry.npmjs.org/karma-cli
+23 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+23 verbose headers   etag: '"BQMC3910XTZ1UGSN5YPW1OOTH"',
+23 verbose headers   'content-type': 'application/json',
+23 verbose headers   'cache-control': 'max-age=300',
+23 verbose headers   'content-length': '12952',
+23 verbose headers   'accept-ranges': 'bytes',
+23 verbose headers   date: 'Sun, 13 Mar 2016 03:07:03 GMT',
+23 verbose headers   via: '1.1 varnish',
+23 verbose headers   age: '261',
+23 verbose headers   connection: 'keep-alive',
+23 verbose headers   'x-served-by': 'cache-sjc3126-SJC',
+23 verbose headers   'x-cache': 'HIT',
+23 verbose headers   'x-cache-hits': '1',
+23 verbose headers   'x-timer': 'S1457838423.202977,VS0,VE0',
+23 verbose headers   vary: 'Accept' }
+24 silly get cb [ 200,
+24 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+24 silly get     etag: '"BQMC3910XTZ1UGSN5YPW1OOTH"',
+24 silly get     'content-type': 'application/json',
+24 silly get     'cache-control': 'max-age=300',
+24 silly get     'content-length': '12952',
+24 silly get     'accept-ranges': 'bytes',
+24 silly get     date: 'Sun, 13 Mar 2016 03:07:03 GMT',
+24 silly get     via: '1.1 varnish',
+24 silly get     age: '261',
+24 silly get     connection: 'keep-alive',
+24 silly get     'x-served-by': 'cache-sjc3126-SJC',
+24 silly get     'x-cache': 'HIT',
+24 silly get     'x-cache-hits': '1',
+24 silly get     'x-timer': 'S1457838423.202977,VS0,VE0',
+24 silly get     vary: 'Accept' } ]
+25 verbose get saving karma-cli to /Users/Shana/.npm/registry.npmjs.org/karma-cli/.cache.json
+26 silly addNameTag next cb for karma-cli with tag latest
+27 silly addNamed karma-cli@0.1.2
+28 verbose addNamed "0.1.2" is a plain semver version for karma-cli
+29 silly mapToRegistry name karma-cli
+30 silly mapToRegistry using default registry
+31 silly mapToRegistry registry https://registry.npmjs.org/
+32 silly mapToRegistry uri https://registry.npmjs.org/karma-cli
+33 verbose addRemoteTarball https://registry.npmjs.org/karma-cli/-/karma-cli-0.1.2.tgz not in flight; adding
+34 verbose addRemoteTarball [ 'https://registry.npmjs.org/karma-cli/-/karma-cli-0.1.2.tgz',
+34 verbose addRemoteTarball   'cacea84371ece19876265c8fa102ebbb9fee4a8c' ]
+35 info retry fetch attempt 1 at 7:07:03 PM
+36 info attempt registry request try #1 at 7:07:03 PM
+37 http fetch GET https://registry.npmjs.org/karma-cli/-/karma-cli-0.1.2.tgz
+38 http fetch 200 https://registry.npmjs.org/karma-cli/-/karma-cli-0.1.2.tgz
+39 silly fetchAndShaCheck shasum cacea84371ece19876265c8fa102ebbb9fee4a8c
+40 verbose addTmpTarball /var/folders/_n/hvrl483d1193808h2_976p_r0000gn/T/npm-4291-deccf9cb/registry.npmjs.org/karma-cli/-/karma-cli-0.1.2.tgz not in flight; adding
+41 verbose addTmpTarball already have metadata; skipping unpack for karma-cli@0.1.2
+42 silly cache afterAdd karma-cli@0.1.2
+43 verbose afterAdd /Users/Shana/.npm/karma-cli/0.1.2/package/package.json not in flight; writing
+44 verbose afterAdd /Users/Shana/.npm/karma-cli/0.1.2/package/package.json written
+45 silly install resolved [ { name: 'karma-cli',
+45 silly install resolved     description: 'The Karma command line interface.',
+45 silly install resolved     homepage: 'http://karma-runner.github.io/',
+45 silly install resolved     repository:
+45 silly install resolved      { type: 'git',
+45 silly install resolved        url: 'git://github.com/karma-runner/karma-cli.git' },
+45 silly install resolved     bugs: { url: 'https://github.com/karma-runner/karma-cli/issues' },
+45 silly install resolved     keywords:
+45 silly install resolved      [ 'karma',
+45 silly install resolved        'spectacular',
+45 silly install resolved        'runner',
+45 silly install resolved        'karma',
+45 silly install resolved        'js',
+45 silly install resolved        'javascript',
+45 silly install resolved        'testing',
+45 silly install resolved        'test',
+45 silly install resolved        'remote',
+45 silly install resolved        'execution' ],
+45 silly install resolved     author: { name: 'Vojta Jína', email: 'vojta.jina@gmail.com' },
+45 silly install resolved     contributors:
+45 silly install resolved      [ [Object],
+45 silly install resolved        [Object],
+45 silly install resolved        [Object],
+45 silly install resolved        [Object],
+45 silly install resolved        [Object],
+45 silly install resolved        [Object],
+45 silly install resolved        [Object],
+45 silly install resolved        [Object] ],
+45 silly install resolved     dependencies: { resolve: '^1.1.6' },
+45 silly install resolved     devDependencies:
+45 silly install resolved      { 'eslint-config-standard': '^4.4.0',
+45 silly install resolved        'eslint-plugin-standard': '^1.3.1',
+45 silly install resolved        grunt: '^0.4.1',
+45 silly install resolved        'grunt-bump': '^0.3.1',
+45 silly install resolved        'grunt-conventional-changelog': '^1.2.2',
+45 silly install resolved        'grunt-eslint': '^17.0.0',
+45 silly install resolved        'grunt-npm': '0.0.2',
+45 silly install resolved        'load-grunt-tasks': '^3.2.0' },
+45 silly install resolved     preferGlobal: true,
+45 silly install resolved     bin: { karma: './bin/karma' },
+45 silly install resolved     engines: { node: '0.10 || 0.12 || 4 || 5' },
+45 silly install resolved     version: '0.1.2',
+45 silly install resolved     license: 'MIT',
+45 silly install resolved     gitHead: '920eded559f5af1c5cc96d12bcaea715be442a1f',
+45 silly install resolved     _id: 'karma-cli@0.1.2',
+45 silly install resolved     scripts: {},
+45 silly install resolved     _shasum: 'cacea84371ece19876265c8fa102ebbb9fee4a8c',
+45 silly install resolved     _from: 'karma-cli@latest',
+45 silly install resolved     _npmVersion: '3.5.2',
+45 silly install resolved     _nodeVersion: '5.3.0',
+45 silly install resolved     _npmUser: { name: 'dignifiedquire', email: 'dignifiedquire@gmail.com' },
+45 silly install resolved     dist:
+45 silly install resolved      { shasum: 'cacea84371ece19876265c8fa102ebbb9fee4a8c',
+45 silly install resolved        tarball: 'http://registry.npmjs.org/karma-cli/-/karma-cli-0.1.2.tgz' },
+45 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+45 silly install resolved     directories: {},
+45 silly install resolved     _resolved: 'https://registry.npmjs.org/karma-cli/-/karma-cli-0.1.2.tgz' } ]
+46 info install karma-cli@0.1.2 into /usr/local/lib
+47 info installOne karma-cli@0.1.2
+48 verbose installOne of karma-cli to /usr/local/lib not in flight; installing
+49 verbose lock using /Users/Shana/.npm/_locks/karma-cli-0e5318cdc71a1121.lock for /usr/local/lib/node_modules/karma-cli
+50 silly install write writing karma-cli 0.1.2 to /usr/local/lib/node_modules/karma-cli
+51 verbose unbuild lib/node_modules/karma-cli
+52 silly gentlyRm /usr/local/lib/node_modules/karma-cli is being purged from base /usr/local
+53 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/karma-cli
+54 verbose tar unpack /Users/Shana/.npm/karma-cli/0.1.2/package.tgz
+55 verbose tar unpacking to /usr/local/lib/node_modules/karma-cli
+56 silly gentlyRm /usr/local/lib/node_modules/karma-cli is being purged
+57 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/karma-cli
+58 silly gunzTarPerm modes [ '755', '644' ]
+59 error tar.unpack untar error /Users/Shana/.npm/karma-cli/0.1.2/package.tgz
+60 verbose unlock done using /Users/Shana/.npm/_locks/karma-cli-0e5318cdc71a1121.lock for /usr/local/lib/node_modules/karma-cli
+61 verbose fstream_path /usr/local/lib/node_modules/karma-cli
+62 verbose fstream_type Directory
+63 verbose fstream_class DirWriter
+64 verbose stack Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/karma-cli'
+64 verbose stack     at Error (native)
+65 verbose fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:35:25
+65 verbose fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:47:53
+65 verbose fstream_stack FSReqWrap.oncomplete (fs.js:82:15)
+66 verbose cwd /Users/Shana/Development/code/angular-hello-world-lab-v-000
+67 error Darwin 14.5.0
+68 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "-g" "karma-cli"
+69 error node v4.2.6
+70 error npm  v2.14.12
+71 error path /usr/local/lib/node_modules/karma-cli
+72 error code EACCES
+73 error errno -13
+74 error syscall mkdir
+75 error Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/karma-cli'
+75 error     at Error (native)
+75 error  { [Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/karma-cli']
+75 error   errno: -13,
+75 error   code: 'EACCES',
+75 error   syscall: 'mkdir',
+75 error   path: '/usr/local/lib/node_modules/karma-cli',
+75 error   fstream_type: 'Directory',
+75 error   fstream_path: '/usr/local/lib/node_modules/karma-cli',
+75 error   fstream_class: 'DirWriter',
+75 error   fstream_stack:
+75 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:35:25',
+75 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:47:53',
+75 error      'FSReqWrap.oncomplete (fs.js:82:15)' ] }
+76 error Please try running this command again as root/Administrator.
+77 verbose exit [ -13, true ]
+78 verbose unbuild lib/node_modules/karma-cli
+79 silly gentlyRm /usr/local/lib/node_modules/karma-cli is being purged from base /usr/local
+80 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/karma-cli
